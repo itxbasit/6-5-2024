@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <form action="" method="get">
+        <label for="">Username:</label>
+        <input type="text" name="name" placeholder="username" maxlength="15" required>
+        <input type="email" name="email" placeholder="email" required>
+        <input type="password"
+            title="Must contain at least one  number and one uppercase and lowercase letter, and at least 8 or more characters"
+            required>
+            
+
+        <textarea name="feedback" id="" cols="12" rows="12" required>
+
+        </textarea>
+        <input type="text" placeholder="which sim you use" value="Jazz">
+        <input type="submit" value="SignIn">
+
+
+        <p>Please select your favorite Animal:
+            <br />
+            <input type="radio" name="Animal" value="Cow" checked="checked" /> Cow
+            <input type="radio" name="Animal" value="Goat" />
+            Goat
+            <input type="radio" name="Animal" value="Sheep" />
+            Sheep
+        </p>
+
+        <!-- about -->
+
+        <p>Please select your favorite music service(s):
+            <br />
+            <input type="checkbox" name="service" value="itunes" checked="checked" /> iTunes
+
+            <input type="checkbox" name="service" value="lastfm" /> Last.fm
+
+            <input type="checkbox" name="service" value="spotify" /> Spotify
+        </p>
+
+        <p>Select Country:</p>
+        <select onchange="ClickBtn()" name="Country" id="country">
+            <option value="India">Pakistan</option>
+            <option value="India">India</option>
+            <option value="Bangladesh">Bangladesh</option>
+        </select>
+
+        <input list="browsers" name="browser" id="browser">
+
+        <datalist id="browsers">
+            <option value="Edge">
+            <option value="Firefox">
+            <option value="Chrome">
+            <option value="Opera">
+            <option value="Safari">
+        </datalist>
+
+    </form>
+
+    <p class="IT" id="saylani">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo mollitia recusandae
+        placeat.</p>
+
+    <p class="IT" id="saylani">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Itaque sequi eligendi
+        praesentium architecto doloremque
+        quidem earum accusantium ipsum, repellat adipisci perspiciatis corporis animi omnis nesciunt sit incidunt
+        aspernatur vero, quia, sapiente modi. Quae nulla repellat voluptatum, repellendus asperiores quo numquam dolore
+        sequi autem sed a perspiciatis maiores voluptatem ipsam ipsum animi dignissimos vitae atque aspernatur
+        necessitatibus alias, quis debitis minus. Repellendus pariatur, mollitia expedita quis totam earum neque saepe
+        odio iste fuga, adipisci, iure eum nobis magni maiores ex sed quam corporis. Delectus iste quis earum
+        dignissimos aliquam inventore, numquam eligendi maiores perferendis voluptas pariatur nesciunt facere ipsam
+        velit quia?
+    </p>
+
+    <!-- <p style="background-color: blue;">Basit</p>
+    <p>Arif</p>
+
+    <a style="background-color: blue;" href="">Saylani</a>
+    <a href="">Mass</a>
+    <a href="">IT</a> -->
+
+
+    <!-- form -->
+    <div class="font">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum fugit natus illum odio vel eligendi nemo, modi
+            nulla dignissimos perferendis!</p>
+        <!-- <form action="">
+            <input type="text" placeholder="name">
+            <input type="password" placeholder="password">
+        </form> -->
+        <a href="">SignUp</a>
+    </div>
+    <p>
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nulla reprehenderit esse labore nostrum <span
+            style="color: red;">similique, perferendis eaque aliquid</span> similique, perferendis eaque aliquid ullam
+        culpa blanditiis beatae consequuntur odio ex voluptate maiores ab quo autem natus?
+    </p>
+
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3619.447066828805!2d67.06557837414185!3d24.8827277443685!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3eb33eebb56aaaab%3A0x27ab04809ef5020a!2sSaylani%20Welfare%20Head%20Office.!5e0!3m2!1sen!2s!4v1718173537767!5m2!1sen!2s" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" scrolling="no" ></iframe>
+    "</>"
+    <p>
+       <!--  -->
+    </p>
+    <script>
+
+        function ClickBtn() {
+            const x = (document.getElementById('country'))
+            console.log(x.value)
+        }
+        console.log(document.getElementById('saylani'))
+
+    </script>
+</body>
+
+</html>
